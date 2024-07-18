@@ -1,0 +1,6 @@
+SELECT count(*) FROM users /* cuenta el n° de registros de la tabla
+SELECT Count(age) FROM users /* cuenta el n° de registros que tienen edad no nula
+/*de la misma forma tambien se pueden sumar
+SELECT sum(age) FROM users
+
+
