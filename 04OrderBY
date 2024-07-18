@@ -1,1 +1,6 @@
+SELECT DISTINCT age FROM users WHERE age = 28 // mostrar edad unica de la tabla usuarios donde la edad es 28
+SELECT * FROM users ORDER BY age; // muestra la tabla usuario completa ordenada por la edad, por defecto de menor a mayor
+SELECT * FROM users ORDER BY age DESC; // orden de mayor a menor
+SELECT * FROM users ORDER BY age ASC; // orden de menor a mayor
+SELECT * FROM users WHERE name = 'Sofía' ORDER BY age DESC; // 
 
