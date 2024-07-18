@@ -1,1 +1,2 @@
-
+SELECT max(age) FROM users /* entrega la maxima edad de la tabla usuarios
+SELECT min(age) FROM users /* entrega la minima edad de la tabla usuarios
