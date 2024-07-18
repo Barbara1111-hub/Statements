@@ -1,0 +1,2 @@
+SELECT * FROM users WHERE age = 28 // entrega todos los atributos de la tabla usuarios que tengan 28 años
+
