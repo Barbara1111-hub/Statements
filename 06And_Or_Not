@@ -1,0 +1,3 @@
+SELECT * FROM users WHERE NOT email = 'barbara.soraya.sl@gmail.com'// entrega todos los datos de los usuarios que no tengan ese email
+SELECT * FROM users WHERE NOT email = 'barbara.soraya.sl@gmail.com' AND age <30; // uso de AND para filtrar por los que no tengan ese correo y tengan menos de 30 años
+SELECT * FROM users WHERE age <30 or email like '%soraya%' // uso de OR para dar dos condiciones de filtro
