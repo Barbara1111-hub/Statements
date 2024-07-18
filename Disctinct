@@ -1,0 +1,4 @@
+SELECT DISTINCT * FROM users // mostrar todos los valores distintos de la tabla
+SELECT DISTINCT surname FROM users  // permite mostrar solo los apellidos distintos
+SELECT DISTINCT age FROM users  // mostrar solo edades diferentes
+  
